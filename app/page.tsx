@@ -66,23 +66,24 @@ export default function Home() {
             <Pill>
   <span className="inline-flex items-center gap-2">
     <Dot />
-    <span>Technique</span>
+    <span>Finish Obstacles</span>
   </span>
 
   <span className="text-slate-300"></span>
 
   <span className="inline-flex items-center gap-2">
     <Dot />
-    <span>Safety</span>
+    <span>Avoid Injury</span>
   </span>
 
   <span className="text-slate-300"></span>
 
   <span className="inline-flex items-center gap-2">
     <Dot />
-    <span>Consistency</span>
+    <span>Train Smarter</span>
   </span>
 </Pill>
+
 
           </div>
 
@@ -95,18 +96,37 @@ export default function Home() {
   Move past the basics. Learn the professional techniques that build the confidence,
   speed, and consistency you need to finish every run.
 </p>
+<p className="mx-auto mt-3 max-w-3xl text-pretty text-base text-slate-700 sm:text-lg">
+  A complete online course with step-by-step modules, drills, and progressions.
+</p>
+
 
 
           <div className="mt-10 flex justify-center">
             <a
               href="#offer"
               className="inline-flex items-center justify-center gap-3 rounded-2xl bg-red-500 px-10 py-5 text-lg font-semibold text-white shadow-md transition hover:brightness-95 focus:outline-none focus:ring-4 focus:ring-red-200"
-              aria-label="Unlock pro level techniques"
+              aria-label="GET INSTANT ACCESS"
             >
               <span aria-hidden>🔒</span>
-              <span>UNLOCK PRO LEVEL TECHNIQUES</span>
+              <span>GET INSTAND ACCESS</span>
             </a>
           </div>
+          {/* Sticky mobile CTA */}
+<div className="fixed bottom-4 left-1/2 z-50 w-[92%] -translate-x-1/2 sm:hidden">
+  <a
+    href="#offer"
+    className="flex items-center justify-center gap-3 rounded-2xl bg-[#E63946] px-6 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg focus:outline-none focus:ring-4 focus:ring-[#E63946]/25"
+    aria-label="GET INSTANT ACCESS"
+  >
+    <span aria-hidden>⚡</span>
+    <span>GET INSTANT ACCESS</span>
+  </a>
+</div>
+
+            <p className="mx-auto mt-4 max-w-2xl text-pretty text-sm text-slate-500 sm:text-base">
+          💳 <span className="italic">One-time payment. Instant lifetime access. All future updates included</span>
+            </p>
 
           
         </section>
@@ -115,9 +135,10 @@ export default function Home() {
         <section className="mt-16">
           <div className="rounded-[32px] border border-slate-200 bg-white/70 p-8 shadow-sm backdrop-blur">
             <div className="grid gap-6 md:grid-cols-3">
-              <ValueCard kicker="Build" title="Confidence" />
-              <ValueCard kicker="Increase" title="Speed" />
-              <ValueCard kicker="Achieve" title="Consistency" />
+              <ValueCard kicker="Step-by-Step Progression" title="Start with foundational movement and progress toward advanced obstacle skills — without skipping levels." />
+              <ValueCard kicker="Short, Focused Video Lessons" title="Clear demonstrations. No fluff. Train efficiently." />
+              <ValueCard kicker="Built-In Skill Tracking" title="Measure your progress so you know exactly when you’re ready to level up." />
+
             </div>
           </div>
         </section>
@@ -125,19 +146,19 @@ export default function Home() {
         {/* COACH */}
         <section className="mt-20 grid gap-10 lg:grid-cols-2 lg:items-start" id="offer">
           <div>
-            <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-              Meet Your Coach: Theodoros <br className="hidden sm:block" />
-              Zannettis
-            </h2>
+            
 
-            <div className="mt-4 text-lg text-slate-600">
-              Sports Scientist | Cyprus’ First Certified Ninja Coach
-            </div>
+          
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-700">
-              I’m not a YouTube trainer. I’ve studied human movement, Anatomy,
-              physiology, biomechanics, sports psychology etc. — and spent the last
-              2.5 years teaching and evolving my knowledge.
+              <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-700">
+  <span className="font-semibold">I</span>’m Theodoros Zannettis — a Sports Scientist and certified Ninja Coach.
+  <br /><br />
+  I built this course to give beginners a structured, safe, and effective path into ninja obstacle training — without confusion, guesswork, or wasted time.
+  <br /><br />
+  <span className="font-semibold">I</span>t combines scientific principles with real-world obstacle coaching so you can improve with clarity and confidence.
+</p>
+
             </p>
 
             <div className="mt-10 space-y-5">

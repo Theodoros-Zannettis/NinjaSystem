@@ -29,4 +29,9 @@ html, body { height: 100%; }
 body {
   background: radial-gradient(1200px 600px at 50% 0%, #ffffff 0%, #f6f7fb 55%, #f3f4f6 100%);
   color: #0f172a;
+}@media (max-width: 640px) {
+  body {
+    padding-bottom: 96px;
+  }
 }
+
