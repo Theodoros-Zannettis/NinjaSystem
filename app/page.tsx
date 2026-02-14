@@ -108,7 +108,7 @@ export default function Home() {
               className="inline-flex items-center justify-center gap-3 rounded-2xl bg-red-500 px-10 py-5 text-lg font-semibold text-white shadow-md transition hover:brightness-95 focus:outline-none focus:ring-4 focus:ring-red-200"
               aria-label="GET INSTANT ACCESS"
             >
-              <span aria-hidden>🔒</span>
+              <span aria-hidden>⚡</span>
               <span>GET INSTAND ACCESS</span>
             </a>
           </div>
