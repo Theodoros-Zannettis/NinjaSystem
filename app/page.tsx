@@ -131,18 +131,6 @@ export default function Home() {
           
         </section>
 
-        {/* VALUE PROPS */}
-        <section className="mt-16">
-          <div className="rounded-[32px] border border-slate-200 bg-white/70 p-8 shadow-sm backdrop-blur">
-            <div className="grid gap-6 md:grid-cols-3">
-              <ValueCard kicker="Step-by-Step Progression" title="Start with foundational movement and progress toward advanced obstacle skills — without skipping levels." />
-              <ValueCard kicker="Short, Focused Video Lessons" title="Clear demonstrations. No fluff. Train efficiently." />
-              <ValueCard kicker="Built-In Skill Tracking" title="Measure your progress so you know exactly when you’re ready to level up." />
-
-            </div>
-          </div>
-        </section>
-
         {/* COACH */}
         <section className="mt-20 grid gap-10 lg:grid-cols-2 lg:items-start" id="offer">
           <div>
@@ -163,19 +151,19 @@ export default function Home() {
 
             <div className="mt-10 space-y-5">
               <CoachCard
-                icon="🧠"
-                title="The Scientist"
-                text="I use my knowledge to help you move smarter — not just harder."
-              />
-              <CoachCard
                 icon="🚀"
-                title="The Builder"
-                text="I built the Ninja System from scratch. It works because it’s battle-tested on real people, not theory."
+                title="Step-by-Step Progressions"
+                text="Start with foundational movement and progress toward advanced obstacle skills — without skipping levels."
               />
               <CoachCard
-                icon="🎯"
-                title="The Mission"
-                text="To help you unlock clean, confident movement — the kind that finishes runs and smacks buzzers."
+                icon="🎥"
+                 title="Short, Focused Video Lessons"
+                 text="Clear demonstrations. No fluff. Train efficiently."
+              />
+              <CoachCard
+               icon="📈"
+               title="Built-In Skill Tracking"
+               text="Measure your progress so you know exactly when you’re ready to level up."
               />
             </div>
           </div>
