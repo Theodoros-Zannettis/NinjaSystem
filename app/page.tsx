@@ -64,13 +64,26 @@ export default function Home() {
         <section className="text-center">
           <div className="flex justify-center">
             <Pill>
-              <Dot />
-              <span>Pro technique</span>
-              <span className="text-slate-300">•</span>
-              <span>Safety</span>
-              <span className="text-slate-300">•</span>
-              <span>Consistency</span>
-            </Pill>
+  <span className="inline-flex items-center gap-2">
+    <Dot />
+    <span>Technique</span>
+  </span>
+
+  <span className="text-slate-300">•</span>
+
+  <span className="inline-flex items-center gap-2">
+    <Dot />
+    <span>Safety</span>
+  </span>
+
+  <span className="text-slate-300">•</span>
+
+  <span className="inline-flex items-center gap-2">
+    <Dot />
+    <span>Consistency</span>
+  </span>
+</Pill>
+
           </div>
 
           <h1 className="mx-auto mt-10 max-w-4xl text-balance text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-6xl sm:leading-[0.95] md:text-7xl">
@@ -80,10 +93,11 @@ export default function Home() {
   <span className="text-red-500">You Can’t Find on YouTube</span>
 </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-pretty text-lg text-slate-600 sm:text-xl">
-            Move past the basics. Learn the professional techniques that build the
-            confidence, speed, and consistency you need to finish every run.
-          </p>
+          <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-slate-600 sm:text-xl">
+  Move past the basics. Learn the professional techniques that build the confidence,
+  speed, and consistency you need to finish every run.
+</p>
+
 
           <div className="mt-10 flex justify-center">
             <a
@@ -96,17 +110,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-slate-600">
-            <span className="inline-flex items-center gap-2">
-              <Dot /> Technique
-            </span>
-            <span className="inline-flex items-center gap-2">
-              <Dot /> Safety
-            </span>
-            <span className="inline-flex items-center gap-2">
-              <Dot /> Consistency
-            </span>
-          </div>
+          
         </section>
 
         {/* VALUE PROPS */}
