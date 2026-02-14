@@ -69,14 +69,14 @@ export default function Home() {
     <span>Technique</span>
   </span>
 
-  <span className="text-slate-300">•</span>
+  <span className="text-slate-300"></span>
 
   <span className="inline-flex items-center gap-2">
     <Dot />
     <span>Safety</span>
   </span>
 
-  <span className="text-slate-300">•</span>
+  <span className="text-slate-300"></span>
 
   <span className="inline-flex items-center gap-2">
     <Dot />
@@ -87,10 +87,8 @@ export default function Home() {
           </div>
 
           <h1 className="mx-auto mt-10 max-w-4xl text-balance text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-6xl sm:leading-[0.95] md:text-7xl">
-  <span>Beginner to Pro:</span>{" "}
-  <span className="text-red-500">Learn the Ninja Skills</span>
-  <br className="hidden sm:block" />
-  <span className="text-red-500">You Can’t Find on YouTube</span>
+  <span>The Complete Beginner-to-Pro </span>
+<span className="text-red-500">Ninja System</span>
 </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-slate-600 sm:text-xl">
