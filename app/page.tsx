@@ -52,7 +52,14 @@ function CoachCard({
 export default function Home() {
   return (
     <main className={inter.className}>
-      <div className="mx-auto max-w-6xl px-6 pb-20 pt-12 sm:pt-16">
+      {/* Background glow */}
+<div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+  <div className="absolute left-1/2 top-[-220px] h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-red-400/20 blur-3xl" />
+  <div className="absolute left-[10%] top-[20%] h-[420px] w-[420px] rounded-full bg-emerald-400/15 blur-3xl" />
+</div>
+
+      <div className="mx-auto max-w-6xl px-5 pb-20 pt-10 sm:px-6 sm:pt-16">
+
         {/* HERO */}
         <section className="text-center">
           <div className="flex justify-center">
@@ -66,12 +73,12 @@ export default function Home() {
             </Pill>
           </div>
 
-          <h1 className="mt-10 text-balance text-5xl font-extrabold leading-[0.95] tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
-            <span>Beginner to Pro: </span>
-            <span className="text-red-500">Learn the Ninja Skills</span>
-            <br />
-            <span className="text-red-500">You Can’t Find on YouTube</span>
-          </h1>
+          <h1 className="mx-auto mt-10 max-w-4xl text-balance text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-6xl sm:leading-[0.95] md:text-7xl">
+  <span>Beginner to Pro:</span>{" "}
+  <span className="text-red-500">Learn the Ninja Skills</span>
+  <br className="hidden sm:block" />
+  <span className="text-red-500">You Can’t Find on YouTube</span>
+</h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-pretty text-lg text-slate-600 sm:text-xl">
             Move past the basics. Learn the professional techniques that build the
