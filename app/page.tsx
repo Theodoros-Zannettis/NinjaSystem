@@ -163,14 +163,15 @@ export default function Home() {
     </div>
   </div>
 
-  {/* RIGHT SIDE - IMAGE */}
-  <div className="flex justify-center lg:justify-end">
-    <img
-      src="/coach.png"
-      alt="Theodoros Zannettis"
-      className="h-72 w-72 rounded-full object-cover shadow-xl"
-    />
-  </div>
+ {/* RIGHT SIDE - IMAGE */}
+<div className="flex justify-center lg:justify-end">
+  <img
+    src="/coach.jpg"
+    alt="Theodoros Zannettis"
+    className="h-72 w-72 rounded-full object-cover shadow-xl"
+  />
+</div>
+
 </section>
 
       </div>
